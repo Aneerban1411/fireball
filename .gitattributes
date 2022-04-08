@@ -1,1 +1,10 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/UserSettings filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/falling_obj.apk filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/test2.apk filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/ProjectSettings filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/SinglePlayer.apk filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/Logs filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/Packages filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/Assets filter=lfs diff=lfs merge=lfs -text
+Source/UnityProject/Library filter=lfs diff=lfs merge=lfs -text
