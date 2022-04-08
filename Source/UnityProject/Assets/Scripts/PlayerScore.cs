@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; 
 
 public class PlayerScore : MonoBehaviour
-{
+{   
+    // Variables
     private  Text ScoreText;
     private int score = 0;
 
@@ -17,21 +18,21 @@ public class PlayerScore : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target)
     {
-        if(target.tag == "fireball")
+        if(target.tag == "fireball") // If collision is with fireball.
         {
             transform.position = new Vector2(0, 100);
             target.gameObject.SetActive(false);
-            StartCoroutine(RestartGame());
+            StartCoroutine(RestartGame()); // Call function to restart the game.
         }
-        if(target.tag == "coin")
+        if(target.tag == "coin") // If collision is with coin.
         {
             target.gameObject.SetActive(false);
-            score++;
+            score++; // Increment score.
             ScoreText.text = score.ToString();
         }
     }
 
-    IEnumerator RestartGame()
+    IEnumerator RestartGame() // Restart game.
     {   yield return new WaitForSecondsRealtime(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
