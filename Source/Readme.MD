@@ -10,5 +10,5 @@ Demo ready multiplayer unity project without unity library
 2D game without AR component
 
 ## Assets
-3D face mask assets
+3D face mask and other blender assets
 
