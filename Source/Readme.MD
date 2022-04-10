@@ -1,4 +1,4 @@
-# All the code source goes into this folder
+# All the code source goes into this folder along with code assets
 
 ## UnityProject
 Final Demo ready single player unity project
