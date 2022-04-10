@@ -1,7 +1,16 @@
 # fireball
 Fire Ball game
 
-Two folders in this repository
+Team
+---------------
+Rohan Aswani
+Aneerban Chakraborty
+Rakshana Bagavathi
+Manak Agarwal
+Anirudh Reddy Gotike
+Aishwarya Reddy Mannem 
+
+
 
 Documentation
 ---------------
